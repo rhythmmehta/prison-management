@@ -1,0 +1,39 @@
+
+<html>
+
+<head>
+<title>Edit Prisoner Profile</title>
+<link rel="stylesheet" href="../CSS/menu.css">
+</head>
+    <body>
+<div id="menu">
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="abt.html">ABOUT US</a></li>
+<li><a href="menu1.html">ADMINISTRATOR MENU</a></li>
+<li><a href="menu.html">USER MENU</a></li>
+</ul>
+</div>
+<div id="container">
+<pre>
+<h1>Edit Prisoner Profile</h1>
+       
+            <form action="edit.php" method="post">
+               
+        
+        Enter Prisoner Id: <input name="id" type="text" />
+        Select the detail you wish to alter:
+
+              <input type="radio" name="b" value="name"/>Name
+              <input type="radio" name="b" value="age"/>Age
+              <input type="radio" name="b" value="sex"/>Sex
+              <input type="radio" name="b" value="offence"/>Offence
+
+        Enter new value for selected detail:        
+              <input name="val" type="text" />               
+                     
+           <input type="submit" value="Submit"/>
+        </form>
+     </pre> </div> 
+    </body>
+</html>
